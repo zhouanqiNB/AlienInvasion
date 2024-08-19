@@ -1,0 +1,10 @@
+{
+  "omnisharp.useGlobalMono": "always",
+  "omnisharp.path": "latest",
+  "files.associations": {
+    "*.lua.txt": "lua"
+  },
+  "editor.formatOnSave": true,
+  "editor.fontSize": 15,
+  "dotnet.preferCSharpExtension": true
+}
