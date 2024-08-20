@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Cryptography.X509Certificates;
 using System.Collections;
 using UnityEngine;
 
@@ -33,7 +31,7 @@ public class PlayerController : MonoBehaviour
         );
     }
     // check input
-    void void LateUpdate()
+    void LateUpdate()
     {
         if (Input.GetButton("Fire1") && WeaponsActivated)
         {
